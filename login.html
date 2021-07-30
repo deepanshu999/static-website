@@ -1,0 +1,39 @@
+<html>
+
+   <head>
+       
+        <title>log in</title>
+	    
+		<link rel="stylesheet" href="loginstyle.css">
+		
+   </head>
+   
+   <body>
+   
+    <div class="login-page">
+      <div class="form">
+	   
+	   <form class="login-form">
+	   
+         <input type="text" placeholder="user name">
+         <input type="text" placeholder="password">
+         <a href="dashboard.html"><button type="button">login</button></a>
+       
+        </form>	   
+		
+	  </div>	
+	
+     	<script src=' https://code.jquery.com/jquery-3.5.1.min.js'> </script>
+
+        <script>
+         $('.message a').click(function()
+         {
+           $('form').animate({height:"toggle", opacity:"toggle"},"slow");
+         });
+        </script>
+    
+	</div>
+	
+   </body>
+   
+</html>
